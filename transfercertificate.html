@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
+		<style type="text/css">
+
+*{margin:0;
+padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{background:white;}
+
+
+ #header .col{border:solid black 1px;
+ background:orange;
+  text-align:center;
+  font-size:1rem;
+  z-index:3;
+  }
+  
+  #bg-image{ position:relative;
+  top:-70px;
+  background-position: center center;  
+background-repeat: no-repeat; background-size:cover; 
+background-size: 1450px 500px;
+background-image:url(a.jpg); 
+height:100%;
+}
+  
+  
+  
+
+/*SIGN UP BTN  */
+  #resister a{text-decoration:none;
+   font-size:0.3rem;
+   color:red;
+   font-weight:bold;
+   border:solid orangered 1px;
+   border-radius:20px;
+  padding:2px 4px;
+ position:relative;
+ top:75px;
+ left:91%;
+  }
+  #resister a:hover{padding:4px 7px;
+  }
+  
+  .logo{width:30px;
+  height:30px;
+  margin-left:5px;
+  margin-top:60px;
+  border-radius:100px;
+ border: 2px solid red;
+  }
+
+#first-heading p{
+   position:relative;
+   top:-35px;
+   margin:0 auto;
+  font-size:0.5rem;
+  font-weight:bold;
+  color:grey;
+  }
+  
+ #schoolname h5{text-align:center;
+ font-weight:bold;
+font-family:arial;
+color:red;
+font-size:1.1rem;
+margin:0 auto;
+margin-top:-40px;
+}
+
+#school-address h1{
+ position:relative;
+ top:-20px;
+ margin:0 auto;
+  font-size:0.7rem;
+  font-weight:bold;
+  color:black;}
+
+
+
+ #an-institution h2{margin:0 auto;
+  font-size:0.5rem;
+  font-weight:bold;
+  color:black;
+  position:relative;
+ top:-20px;
+  }
+
+#cbse-new-delhi h1{margin:0 auto;
+  font-size:0.5rem;
+  font-weight:bold;
+  color:red;
+  position:relative;
+ top:-20px;
+  }
+
+
+#welcome-effect{
+height:30px;
+position:relative;
+top:145px;
+;background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+ background-size: 400% 400%;
+ animation: gradient 15s ease infinite;
+
+}
+
+@keyframes gradient {
+ 0% {
+  background-position: 0% 50%;
+ }
+ 50% {
+  background-position: 100% 50%;
+ }
+ 100% {
+  background-position: 0% 50%;
+ }
+}
+
+#welcome-effect marquee h2{font-size:1rem;
+padding:5px 20px;
+color:white;
+font-weight:bold;
+}
+
+
+#social{margin-top:-7px;
+
+}
+
+.box1{
+ margin-top:17px;
+margin-left:5px;
+}
+
+
+.box2{margin-top:-29px;
+margin-left:45px;
+}
+.box3{margin-top:-29px;
+margin-left:85px;
+}
+.box4{margin-top:-29px;
+margin-left:125px;
+}
+.fa {
+  padding-top: 5px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook:hover {
+background:#4169E1;
+color:white;
+}
+.fa-youtube:hover {
+background:red;
+color:white;
+}
+.fa-twitter:hover {
+background:#00BFFF;
+color:white;
+}
+.fa-instagram:hover {
+background:#FF69B4;
+color:white;
+}
+
+
+.fa-facebook {
+ width:25px;
+ height:25px;
+ border-radius:25px;
+  background:white;
+  color:#3B5998;
+  box-shadow:1px 1px 3px 1px black;
+  
+  }
+
+     .fa-youtube {
+ width:25px;
+ height:25px;
+ border-radius:25px;
+  background:white;
+  color:red;
+  box-shadow:1px 1px 3px 1px black;
+  }
+
+     .fa-twitter {
+ width:25px;
+ height:25px;
+ border-radius:25px;
+  background:white;
+  color:#00BFFF;
+  box-shadow:1px 1px 3px 1px black;
+  }
+     
+     .fa-instagram {
+ width:25px;
+ height:25px;
+ border-radius:25px;
+  background:white;
+  color:#FF69B4;
+  box-shadow:1px 1px 3px 1px black;
+  }
+     
+  .school-social ul{margin:0 auto;
+    list-style-type:none;
+   }
+    .school-social ul li{padding:0px 2px;
+    display:inline-block;
+    
+    margin-top:15px;
+   }
+   
+    .school-social ul li a{
+     backgroung:grey;
+     width:20px;
+     height:20px;
+     font-size:10px;
+     border-radius:20px;
+   }
+   .fa-whatsapp:hover {
+background:green;
+color:white;
+}
+.fa-whatsapp {
+ width:20px;
+ height:20px;
+ border-radius:20px;
+  background:white;
+  color:green;
+  box-shadow:1px 1px 3px 1px black;
+  }
+
+ 
+ /*menu baar designing parts*/
+#menuBody{background:white;
+margin-top:145px;
+}
+
+.menu{
+  list-style-type: none; 
+  margin:0 auto;    
+    
+}
+
+.menu .navbar li{
+	margin:0 auto;
+}
+
+.menu .navbar li .dropdown h1{border:1px solid grey;
+border-radius:3px;
+padding:2px 3px;
+background:black;
+list-style: none;
+ text-decoration:none;
+     color:white;
+    display:block;
+    font-size:0.5rem;
+    margin-top:0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow:0px 0px 1px 0px black;
+}
+
+.menu .navbar li .dropdown h1:hover{color:grey;
+border:1px solid red;
+font-size:0.6rem;
+}
+
+
+
+
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color:grey;
+}
+.dropdown-content {
+  display: none;
+ position:absolute;
+ left:2px;
+ top:20px;
+ background-color:#191970;
+  min-width:100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:2;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  background:black;
+  border:1px solid black;
+  font-size:0.5rem;
+  font-weight:bold;
+  text-align:center;
+  padding:1px;
+  margin-top:4px;
+  text-decoration: none;
+  display: block;
+   z-index:2;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {color:black;
+font-size:0.8rem;
+  display: block;
+}
+
+
+
+
+
+ 
+ /* to control margin of recent update bar */
+#mid-contents{position:relative;
+top:-170px;
+
+}
+
+#nav1{margin-top:100px;
+ background:white;
+}
+
+
+
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+}
+.footer p{position:relative;
+top:5px;
+left:0;
+font-size:1rem;
+}
+
+
+/*MEDIA QUERY FOR RESPONSIVE PAGE*/
+
+@media screen and (min-width:800px){
+ #resister a{font-size:0.5rem;
+ position:relative;
+ top:35px;
+ left:92%;
+  }}
+
+@media screen and (min-width:800px){
+ #bg-image{position:relative;
+  top:-30px;
+height:100%;
+}}
+
+@media screen and (min-width:800px){
+ .logo{width:50px;
+  height:50px;
+  margin-left:15%;
+  border-radius:100px;
+  border:solid red 2px;
+  position:relative;
+  top:-45px;
+  }}
+
+@media screen and (min-width:800px){ 
+#first-heading p{
+   position:relative;
+   top:-98px;
+   margin:0 auto;
+  font-size:0.8rem;
+  }}
+
+@media screen and (min-width:800px){
+ #schoolname h5{position:relative;
+ top:-70px;
+ left:50px;
+font-size:2.5rem;
+}}
+
+@media screen and (min-width:800px){
+#school-address h1{position:relative;
+ top:-77px;
+ left:50px;
+  font-size:1.2rem;}}
+
+
+@media screen and (min-width:800px){
+ #an-institution h2{font-size:0.9rem;
+ position:relative;
+ top:-80px;
+ left:50px;
+  }}
+
+@media screen and (min-width:800px){
+#cbse-new-delhi h1{position:relative;
+ top:-80px;
+ left:50px;
+ color:black;
+  font-size:0.9rem;
+  }}
+
+
+
+@media screen and (min-width:520px){
+.menu .navbar li .dropdown h1{font-size:0.9rem;
+margin-top:20px;
+padding:4px;
+box-shadow:1px 1px 1px 2px white;
+}}
+
+
+@media screen and (min-width:800px){
+.menu .navbar li .dropdown{
+	margin:0 auto;
+	padding:2px;
+}}
+
+@media screen and (min-width:800px){
+.menu .navbar li .dropdown h1{font-size:1.0rem;
+    margin-top:20px;
+    
+padding:5px;
+box-shadow:1px 1px 1px 2px white;
+}}
+
+
+@media screen and (min-width:800px){
+.dropdown-content a{font-size:1.0rem;
+  
+box-shadow:1px 1px 1px 2px white;
+}}
+
+@media screen and (min-width:800px){
+.dropdown-content {font-size:1.0rem;
+  position:absolute;
+top:50px;
+box-shadow:1px 1px 1px 2px white;
+}}
+
+
+
+
+@media screen and (max-width:600px){
+	#content{margin-top:50px;
+	width:100%;
+	position:relative;
+	top:150px;
+	}
+}
+@media screen and (min-width:600px){
+	#content{margin:0 auto;
+		margin-top:40px;
+	width:100%;
+
+	}
+}
+
+@media screen and (max-width:600px){
+#content table{width:98%;
+	margin:0 auto;
+}}
+
+@media screen and (min-width:800px){
+#content table{width:98%;
+	margin:0 auto;
+}}
+
+@media screen and (min-width:600px){
+#content table th{
+	padding:5px;
+	font-size:0.9rem;
+}}
+
+
+@media screen and (min-width:600px){
+#content table td{
+	padding:5px;
+	font-size:0.8rem;
+	font-weight:bold;
+}}
+
+@media screen and (min-width:600px){
+lable{
+  font-size:1.3rem;
+  font-weight:bold;
+  position:relative;
+  top:0px;
+  left:10px;
+ }
+}
+@media screen and (min-width:900px){
+lable{
+  font-size:1.3rem;
+  font-weight:bold;
+  position:relative;
+  top:0px;
+  left:40px;
+ }
+}
+
+
+
+
+@media screen and (min-width:600px){
+#myInput {width:50%;
+  position:relative;
+  top:0px;
+  left:20px;
+ }
+}
+@media screen and (min-width:900px){
+#myInput {width:30%;
+  position:relative;
+  top:0px;
+  left:60px;
+ }
+}
+
+ 	  @media screen and (min-width:600px){
+ 	 	 #content .search{float:right;
+ 	 	 border-radius:15px;
+ 	 	 font-weight:bold;
+ 	 	 background:black;
+ 	 	 color:white;
+ 	 	 padding:3px 10px;
+ 	 	 position:relative;
+ 	 	 top:0px;
+ 	 	 left:-10px;
+ 	 	 }	 
+ 	 	 }	  
+ 	 	 @media screen and (min-width:900px){
+ 	 	 #content .search{float:right;
+ 	 	 border-radius:15px;
+ 	 	 font-weight:bold;
+ 	 	 background:black;
+ 	 	 color:white;
+ 	 	 padding:3px 10px;
+ 	 	 position:relative;
+ 	 	 top:0px;
+ 	 	 left:-300px;
+ 	 	 }	 
+ 	 	 }	  
+
+
+
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid" id="header">
+			<div class="row">
+				<div class="col">Aff.No.2131971</div>
+				<div class="col">School Code.71117</div>
+			</div>
+		</div>
+		<!--HEADER PARTS-->
+		<div class="container-fluid" id="bg-image">
+			<div class="row" id="resister">
+				<a href="signup.html">Sign Up</a>
+			</div>
+			<div class="row">
+				<img class="logo" src="logo1.jpg" />
+
+			</div>
+			<div class="row" id="first-heading">
+				<p>Est.by Pt. Shreedev Dwivedi Memorial Trust,2012</p>
+			</div>
+			<div class="row" id="schoolname">
+				<h5>VIDYA SANSKAR PUBLIC SCHOOL</h5>
+			</div>
+			<div class="row" id="school-address">
+				<h1>KAURIYA KALA, ADALHAT, MIRZAPUR - 232102</h1>
+			</div>
+			<div class="row" id="an-institution">
+				<h2>
+					<i>"An institute devoted to bring a better tommorow"</i>
+				</h2>
+			</div>
+			<div class="row" id="cbse-new-delhi">
+				<h1>AFFILIATED TO CBSE NEW DELHI 10+2</h1>
+			</div>
+			<div class="row" id="welcome-effect">
+				<marquee direction="left" behavior="alternate">
+					<h2>VIDYA SANSKAR PUBLIC SCHOOL WELCOMES YOU</h2>
+				</marquee>
+			</div>
+	<!--MENU BAR CONTENTS-->
+			<div class="row" id="menuBody">
+				<div id="sidebarMenu">
+					<center>
+					<ul class="menu">
+						<div class="navbar">
+							<li>
+								<div class="dropdown">
+									<h1 class="dropbtn">Home</h1>
+									<div class="dropdown-content">
+										<a href="HOME_.html">Home</a>
+										<a href="aboutus.html">About_us</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="dropdown">
+									<h1 class="dropbtn">Admission</h1>
+									<div class="dropdown-content">
+										<a href="admission-form.html">Admission Procedure</a>
+										<a href="admission-withdral.html">Admission Withdrawl</a>
+										<a href="transfercertificate.html">Transfer Certificate</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="dropdown">
+									<h1 class="dropbtn">Academic</h1>
+									<div class="dropdown-content">
+										<a href="school-uniform.html">School Uniform</a>
+										<a href="syllabus.html">Syllabus</a>
+										<a href="examinationpromotion.html">Exam And Promotion</a>
+										<a href="feestructure.html">Fee Structure</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="dropdown">
+									<h1 class="dropbtn">Achievements</h1>
+									<div class="dropdown-content">
+										<a href="president.html">Awards</a>
+										<a href="score.html">10th and 12th Board Results</a>
+										<a href="ncsc.html">Awarded in NCSC</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="dropdown">
+									<h1 class="dropbtn">Gallary</h1>
+									<div class="dropdown-content">
+									    <a href="indepenceday.html">Independence Day</a>
+										<a href="annualfunction.html">Annual Function</a>
+										<a href="quizcompition.html">School Activity</a>
+										<a href="republicday.html">Republic Day</a>
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="dropdown">
+									<h1 class="dropbtn">Rank Holders</h1>
+									<div class="dropdown-content">
+										<a href="rankers.html">Rsnkers Detail</a>
+										
+									
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="dropdown">
+									<h1 class="dropbtn">Infrastructure</h1>
+									<div class="dropdown-content">
+										<a href="building.html">Buildings</a>
+										<a href="classroom.html">Class Rooms</a>
+										<a href="playground.html">Play Ground</a>
+										<a href="labs.html">Labs</a>
+										<a href="smartclass.html">Smart Classes</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="dropdown">
+									<h1 class="dropbtn">Annual School Calender</h1>
+									<div class="dropdown-content">
+										<a href="school.html">School Calender</a>
+										<a href="house.html">Important Schedule</a>
+										<a href="sports.html">List of Holidays</a>
+										
+										
+										
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="dropdown">
+									<h1 class="dropbtn">Mandatory Disclosur</h1>
+									<div class="dropdown-content">
+										<a href="generalinformation.html">General Information</a>
+										<a href="documentsandinformation.html">School Managing Committee</a>
+										<a href="resultsandacademy.html">Staff Details</a>
+										<a href="schoolinfrastructure.html">School Infrastructure</a>
+										<a href="manegment.html">Documents and Information</a>
+										
+										
+									</div>
+								</div>
+							</li>
+						</div>						
+					</ul>
+			 </center>	
+				</div>
+			</div>
+		</div>
+
+<hr>
+			
+ <div id="content">
+
+<h4> DOWNLOAD TC</h4>
+<BR>
+	<lable>
+	 Enter School Admission No:
+	 </lable>
+	 	<input id="myInput" type="number" placeholder="Enter School Admission No" name="uname" required> <button class="search" onclick="myFunction()">Search</button><br> 
+ 	 	 	      <p id="demo"></p> 
+ 	 	 	     <img id='myImage'> 
+ 	 	 	     <script> 
+ 	 	 	     function myFunction() { var rollnumber = document.getElementById("myInput").value; switch(rollnumber) { case "113": window.open("TC/113.pdf"); break; case "35": window.open("TC/35.pdf"); break; case "148": window.open("TC/148.pdf"); break; case "162": window.open("TC/162.pdf"); break; case "165": window.open("TC/165.pdf"); break; case "208": window.open("TC/208.pdf"); break; case "209": window.open("TC/209.pdf"); break; case "239": window.open("TC/239.pdf"); break; case "264": window.open("TC/264.pdf"); break; case "329": window.open("TC/329.pdf"); break; case "354": window.open("TC/354.pdf"); break; case "447": window.open("TC/447.pdf"); break; case "484": window.open("TC/484.pdf"); break; case "492": window.open("TC/492.pdf"); break; case "520": window.open("TC/520.pdf"); break; case "529": window.open("TC/529.pdf"); break; case "532": window.open("TC/532.pdf"); break; case "552": window.open("TC/552.pdf"); break; case "608": window.open("TC/608.pdf"); break; case "666": window.open("TC/666.pdf"); break; case "708": window.open("TC/708.pdf"); break; case "753": window.open("TC/753.pdf"); break; case "761": window.open("TC/761.pdf"); break; case "775": window.open("TC/775.pdf"); break; case "783": window.open("TC/783.pdf"); break; case "785": window.open("TC/785.pdf"); break; case "802": window.open("TC/802.pdf"); break; case "864": window.open("TC/864.pdf"); break; case "893": window.open("TC/893.pdf"); break; case "896": window.open("TC/896.pdf"); break; case "902": window.open("TC/902.pdf"); break; case "906": window.open("TC/906.pdf"); break; case "909": window.open("TC/909.pdf"); break; case "920": window.open("TC/920.pdf"); break; case "921": window.open("TC/921.pdf"); break; case "928": window.open("TC/928.pdf"); break; case "935": window.open("TC/935.pdf"); break; case "940": window.open("TC/940.pdf"); break; case "947": window.open("TC/947.pdf"); break; case "955": window.open("TC/955.pdf"); break; case "960": window.open("TC/960.pdf"); break; case "961": window.open("TC/961.pdf"); break; case "1045": window.open("TC/1045.pdf"); break; case "1070": window.open("TC/1070.pdf"); break; case "1083": window.open("TC/1083.pdf"); break; case "TC/101204": window.open("TC/1017204.pdf"); break;
+ 	 	 	     
+ 	 	 	     
+case "1617016": window.open("TC/1617016.pdf"); break; case "1718097": window.open("TC/1718097.pdf"); break; case "6": window.open("TC/6.pdf"); break; case "58": window.open("TC/58.pdf"); break; case "66": window.open("TC/66.pdf"); break; case "80": window.open("TC/80.pdf"); break; case "115": window.open("TC/115.pdf"); break; case "180": window.open("TC/180.pdf"); break; case "181": window.open("TC/181.pdf"); break; case "138": window.open("TC/138.pdf"); break; case "225": window.open("TC/225.pdf"); break; case "273": window.open("TC/273.pdf"); break; case "276": window.open("TC/276.pdf"); break; case "290": window.open("TC/290.pdf"); break; case "331": window.open("TC/331.pdf"); break; case "343": window.open("TC/343.pdf"); break; case "347": window.open("TC/347.pdf"); break; case "350": window.open("TC/350.pdf"); break; case "410": window.open("TC/410.pdf"); break; case "441": window.open("TC/441.pdf"); break; case "472": window.open("TC/472.pdf"); break; case "483": window.open("TC/483.pdf"); break; case "497": window.open("TC/497.pdf"); break; case "508": window.open("TC/508.pdf"); break; case "542": window.open("TC/542.pdf"); break; case "569": window.open("TC/569.pdf"); break; case "582": window.open("TC/582.pdf"); break; case "587": window.open("TC/587.pdf"); break; case "600": window.open("TC/600.pdf"); break; case "652": window.open("TC/652.pdf"); break; case "679": window.open("TC/679.pdf"); break; case "695": window.open("TC/695.pdf"); break; case "760": window.open("TC/760.pdf"); break; case "776": window.open(TC/"776.pdf"); break; case "790": window.open("TC/790.pdf"); break; case "794": window.open("TC/794.pdf"); break; case "808": window.open("TC/808.pdf"); break; case "838": window.open("TC/838.pdf"); break; case "839": window.open("TC/839.pdf"); break; case "879": window.open("TC/879.pdf"); break; case "894": window.open("TC/894.pdf"); break; case "900": window.open("TC/900.pdf"); break; case "930": window.open("TC/930.pdf"); break; case "931": window.open("TC/931.pdf"); break; case "942": window.open("TC/942.pdf"); break; case "944": window.open("TC/944.pdf"); break; case "946": window.open("TC/946.pdf"); break; case "956": window.open("TC/956.pdf"); break; case "1029": window.open("TC/1029.pdf"); break; case "1080": window.open("TC/1080.pdf"); break; case "1108": window.open("TC/1108.pdf"); break; case "1173": window.open("TC/1173.pdf"); break; case "1291": window.open("TC/1291.pdf"); break; case "1017204": window.open("TC/1017204.pdf"); break; case "1617016": window.open("TC/1617016.pdf"); break; case "1819009": window.open("TC/1819009.pdf"); break; case "18190093": window.open("TC/18190093.pdf"); break;
+
+
+
+case "28": window.open("TC/28.pdf"); break; case "89": window.open("TC/89.pdf"); break; case "90": window.open("TC/90.pdf"); break; case "109": window.open("TC/109.pdf"); break; case "136": window.open("TC/136.pdf"); break; case "163": window.open("TC/163.pdf"); break; case "185": window.open("TC/185.pdf"); break; case "192": window.open("TC/192.pdf"); break; case "212": window.open("TC/212.pdf"); break; case "235": window.open("TC/235.pdf"); break; case "243": window.open("TC/243.pdf"); break; case "251": window.open("TC/251.pdf"); break; case "256": window.open("TC/256.pdf"); break; case "257": window.open("TC/257.pdf"); break; case "258": window.open("TC/258.pdf"); break; case "271": window.open("TC/271.pdf"); break; case "275": window.open("TC/275.pdf"); break; case "286": window.open("TC/286.pdf"); break; case "287": window.open("TC/287.pdf"); break; case "301": window.open("TC/301.pdf"); break; case "304": window.open("TC/304.pdf"); break; case "310": window.open("TC/310.pdf"); break; case "361": window.open("TC/361.pdf"); break; case "362": window.open("TC/362.pdf"); break; case "480": window.open("TC/480.pdf"); break; case "493": window.open("TC/493.pdf"); break; case "500": window.open("TC/500.pdf"); break; case "509": window.open("TC/509.pdf"); break; case "549": window.open("TC/549.pdf"); break; case "572": window.open("TC/572.pdf"); break; case "596": window.open("TC/596.pdf"); break; case "646": window.open("TC/646.pdf"); break; case "658": window.open("TC/658.pdf"); break; case "662": window.open("TC/662.pdf"); break; case "685": window.open("TC/685.pdf"); break; case "723": window.open("TC/723.pdf"); break; case "809": window.open("TC/809.pdf"); break; case "818": window.open("TC/818.pdf"); break; case "819": window.open("TC/819.pdf"); break; case "842": window.open("TC/842.pdf"); break; case "853": window.open("TC/853.pdf"); break; case "890": window.open("TC/890.pdf"); break; case "948": window.open("TC/948.pdf"); break; case "974": window.open("TC/974.pdf"); break; case "994": window.open("TC/994.pdf"); break; case "1009": window.open("TC/1009.pdf"); break; case "1020": window.open("TC/1020.pdf"); break; case "1033": window.open("TC/1033.pdf"); break; case "1091": window.open("TC/1091.pdf"); break; case "1115": window.open("TC/1115.pdf"); break; case "1132": window.open("TC/1132.pdf"); break; case "1162": window.open("TC/1162.pdf"); break; case "1217": window.open("TC/1217.pdf"); break; case "1218": window.open("TC/1218.pdf"); break; case "1245": window.open("TC/1245.pdf"); break; case "1247": window.open("TC/1247.pdf"); break; case "1254": window.open("TC/1254.pdf"); break;
+
+
+case "1274": window.open("TC/1274.pdf"); break; case "1283": window.open("TC/1283.pdf"); break; case "1285": window.open("TC/1285.pdf"); break; case "1286": window.open("TC/1286.pdf"); break; case "1287": window.open("TC/1287.pdf"); break; case "1288": window.open("TC/1288.pdf"); break; case "1300": window.open("TC/1300.pdf"); break; case "1312": window.open("TC/1312.pdf"); break; case "1342": window.open("TC/1342.pdf"); break; case "1352": window.open("TC/1352.pdf"); break; case "1353": window.open("TC/1353.pdf"); break; case "1378": window.open("TC/1378.pdf"); break; case "1379": window.open("TC/1379.pdf"); break; case "1385": window.open("TC/1385.pdf"); break; case "1386": window.open("TC/1386.pdf"); break; case "1388": window.open("TC/1388.pdf"); break; case "1392": window.open("TC/1392.pdf"); break; case "1398": window.open("TC/1398.pdf"); break; case "1424": window.open("TC/1424.pdf"); break; case "1429": window.open("TC/1429.pdf"); break; case "1435": window.open("TC/1435.pdf"); break; case "1449": window.open("TC/1449.pdf"); break; case "1454": window.open("TC/1454.pdf"); break; case "1466": window.open("TC/1466.pdf"); break; case "1482": window.open("TC/1482.pdf"); break; case "1565": window.open("TC/1565.pdf"); break; case "1572": window.open("TC/1572.pdf"); break; case "1575": window.open("TC/1575.pdf"); break; case "1658": window.open("TC/1658.pdf"); break; case "1660": window.open("TC/1660.pdf"); break; case "1668": window.open("TC/1668.pdf"); break; case "1669": window.open("TC/1669.pdf"); break; case "1734": window.open("TC/1734.pdf"); break; case "1737": window.open("TC/1737.pdf"); break; case "1765": window.open("TC/1765.pdf"); break; case "1768": window.open("TC/1768.pdf"); break; case "1783": window.open("TC/1783.pdf"); break; case "1793": window.open("TC/1793.pdf"); break; case "1794": window.open("TC/1794.pdf"); break; case "1795": window.open("TC/1795.pdf"); break; case "1796": window.open("TC/1796.pdf"); break; case "1801": window.open("TC/1801.pdf"); break; case "1806": window.open("TC/1806.pdf"); break; case "1811": window.open("TC/1811.pdf"); break; case "1812": window.open("TC/1812.pdf"); break; case "1813": window.open("TC/1813.pdf"); break; case "1815": window.open("TC/1215.pdf"); break; case "1824": window.open("TC/1824.pdf"); break; case "1825": window.open("TC/1825.pdf"); break; case "1826": window.open("TC/1826.pdf"); break; case "1829": window.open("TC/1829.pdf"); break; case "1832": window.open("TC/1832.pdf"); break; case "1833": window.open("TC/1833.pdf"); break; case "1834": window.open("TC/1834.pdf"); break; case "1835": window.open("TC/1835.pdf"); break; case "1836": window.open("TC/1836.pdf"); break; case "1840": window.open("TC/1840.pdf"); break;
+
+
+case "1848": window.open("TC/1848.pdf"); break; case "1850": window.open("TC/1850.pdf"); break; case "1851": window.open("TC/1851.pdf"); break; case "1857": window.open("TC/1857.pdf"); break; case "1860": window.open("TC/1860.pdf"); break; case "1861": window.open("TC/1861.pdf"); break; case "1863": window.open("TC/1863.pdf"); break; case "1864": window.open("TC/1864.pdf"); break; case "1866": window.open("TC/1866.pdf"); break; case "1869": window.open("TC/1869.pdf"); break; case "1871": window.open("TC/1871.pdf"); break; case "1872": window.open("TC/1872.pdf"); break; case "1879": window.open("TC/1879.pdf"); break; case "1886": window.open("TC/1886.pdf"); break; case "1890": window.open("TC/1890.pdf"); break; case "1902": window.open("TC/1902.pdf"); break; case "1908": window.open("TC/1908.pdf"); break; case "1909": window.open("TC/1909.pdf"); break; case "4101910": window.open("TC/1910.pdf"); break; case "1911": window.open("TC/1911.pdf"); break; case "1912": window.open("TC/1912.pdf"); break; case "1917": window.open("TC/1917.pdf"); break; case "1918": window.open("TC/1919.pdf"); break; case "1923": window.open("TC/1923.pdf"); break; case "2010": window.open("TC/2010.pdf"); break; case "2062": window.open("TC/2062.pdf"); break; case "2258": window.open("TC/2258.pdf"); break; case "2295": window.open("TC/3395.pdf"); break; case "2309": window.open("TC/2309.pdf"); break; 
+
+
+
+default: text = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b> Database Not Found</b>"; } document.getElementById("demo").innerHTML = text; }
+ 	 	 	     </script> 
+ 	 	 	   
+ 	 	 	    <div style="overflow-x:auto;"> 
+ 	 	 	    
+ 	 	 	    
+ 	 	 	    
+ 	 	
+</div>
+
+
+						
+
+			<div class="footer">
+				<font color="white"></font>
+				<p>
+					<font color="white">All rights reserved @ 2012 India</font>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

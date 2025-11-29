@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+<style type="text/css">
+
+*{margin:0;
+padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{background:white;}
+
+
+	#header .col{border:solid gold 1px;
+		text-align:center;
+		font-size:1rem;
+		}
+		
+		#bg-image{ 
+		background-position: center center;  
+background-repeat: no-repeat; background-size: cover; 
+background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://source.unsplash.com/480x480/?office,library,mathematics); 
+height:200px;
+}
+		
+		
+		#first-heading p{text-align:center;
+		font-size:0.6rem;
+		color:#FFE4E1;
+		margin:0 auto;
+		}
+
+		
+		.logo{width:50px;
+		height:50px;
+	 margin:0 auto;
+	 margin-top:20px;
+		border-radius:100px;
+	border: 5px solid blue;
+		}
+
+
+ #schoolname h5{text-align:center;
+	font-weight:bold;
+font-family:arial;
+color:orangered;
+font-size:1.3rem;
+margin:0 auto;
+margin-top:px;
+}
+
+#school-address h1{margin:0 auto;
+		font-size:0.8rem;
+		font-weight:bold;
+		color:gold;}
+
+
+
+	#an-institution h2{margin:0 auto;
+		font-size:0.7rem;
+		font-weight:bold;
+		color:#FFFF00;
+		}
+
+#cbse-new-delhi h1{margin:0 auto;
+		font-size:0.6rem;
+		font-weight:bold;
+		color:darkorange;
+		}
+
+#welcome-effect{width:auto;
+height:30px;
+position:relative;
+top:35px;
+;background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#welcome-effect marquee h2{font-size:1rem;
+padding:5px 20px;
+color:white;
+font-weight:bold;
+}
+
+#auto-sliding-img{position:relative;
+top:60px;
+margin:0 auto;
+	width:100%;
+	height:150px;
+	border:gold 3px solid;
+	box-shadow:1px 1px 10px 2px black;
+	z-index:1;
+}
+
+.mySlides{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+
+
+
+.box1{margin-top:10px;
+margin-left:10px;
+}
+
+
+.box2{margin-top:-29px;
+margin-left:45px;
+}
+.box3{margin-top:-29px;
+margin-left:85px;
+}
+.box4{margin-top:-29px;
+margin-left:125px;
+}
+.fa {
+  padding-top: 5px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook:hover {
+background:#4169E1;
+color:white;
+}
+.fa-youtube:hover {
+background:red;
+color:white;
+}
+.fa-twitter:hover {
+background:#00BFFF;
+color:white;
+}
+.fa-instagram:hover {
+background:#FF69B4;
+color:white;
+}
+
+
+.fa-facebook {
+	width:25px;
+	height:25px;
+	border-radius:25px;
+  background:white;
+  color:#3B5998;
+ box-shadow:1px 1px 3px 1px black;
+  }
+
+     .fa-youtube {
+	width:25px;
+	height:25px;
+	border-radius:25px;
+  background:white;
+  color:red;
+  box-shadow:1px 1px 3px 1px black;
+  }
+
+     .fa-twitter {
+	width:25px;
+	height:25px;
+	border-radius:25px;
+  background:white;
+  color:#00BFFF;
+  box-shadow:1px 1px 3px 1px black;
+  }
+     
+     .fa-instagram {
+	width:25px;
+	height:25px;
+	border-radius:25px;
+  background:white;
+  color:#FF69B4;
+  box-shadow:1px 1px 3px 1px black;
+  }
+     
+	
+	
+	/*menu baar designing parts*/
+.menu-box{position:absolute;
+top:27px;
+left:6px;
+height:25px;
+background-color:black;
+border-radius:5px;
+width:50px;
+}
+
+.main {
+    height: 100%;
+    margin-top: 60px;
+    padding: 10px 50px;
+}
+#sidebarMenu {
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height:2000px;
+    margin-top:0px;
+    transform: translateX(-250px);
+    transition: transform 250ms ease-in-out;
+   background:#263CFF;
+    z-index:1;
+}
+.menu{
+  list-style-type: none; 
+    margin-top:50px;
+    padding:1px 20px;
+}
+
+
+
+.menu li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.menu .navbar li .dropdown h1{list-style: none;
+	text-decoration:none;
+    color: white;
+    display:block;
+    font-size:1.2rem;
+    padding-left:10px;
+    margin-top:40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu .navbar li .dropdown h1:hover{color:black;
+font-size:1.2rem;
+}
+
+
+#openSidebarMenu:checked ~ #sidebarMenu {
+    transform: translateX(0);
+}
+
+input#openSidebarMenu{
+    display: none;
+}
+.sidebarIconToggle {
+  height: 23px;
+    width: 30px;
+    position: absolute;
+    z-index: 99;
+    top: 32px;
+    left: 15px;
+    transition: all 0.3s;
+    cursor: pointer; 
+    
+}
+.spinner {
+    height: 3px;
+    background-color:white;
+    transition: all 0.3s;
+}
+.spinner.middle ,
+.spinner.bottom{
+    margin-top: 3px;
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.middle {
+    opacity: 0;
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.top {
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+#openSidebarMenu:checked ~ .sidebarIconToggle > .spinner.bottom {
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}			
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color:grey;
+}
+.dropdown-content {
+  display: none;
+ position:absolute;
+ left:62px;
+ top:20px;
+ background-color:#191970
+;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  background:red;
+  border:1px solid black;
+  font-size:0.8rem;
+  font-weight:bold;
+  text-align:center;
+  padding:1px;
+  margin-top:5px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {color:black;
+font-size:1.2rem;
+  display: block;
+}
+
+
+
+.body-content{margin-top:210px;
+	}
+	
+	/* to control margin of recent update baar */
+#mid-contents{position:relative;
+top:30px;
+}
+
+#nav1{background:white;
+}
+/*Heading of "RECENT UPDATES" */
+#nav1 h1{font-size:1rem;
+text-align:center;
+font-weight:bold;
+color:white;
+width:200px;
+padding:5px 0px;
+background:brown;
+border-radius:3px;
+box-shadow:1px 1px 10px 2px black;
+}
+
+.recent-updates{border:solid red 1px;
+height:220px;
+width:200px;
+background::gostwhite;
+box-shadow:1px 1px 10px 2px black;
+}
+
+.recent-updates a{font-size:1rem;
+text-align:;
+padding:0px 2px;
+}
+
+#nav1 .corona{max-width:130px;
+height:auto;
+position:relative;
+top:-260px;
+left:210px;
+perspective:1000px;
+}
+
+.corona img{width:100%;
+height:100%;
+border-radius:400px;
+margin:0 auto;
+}
+
+
+.corona img{transform:rotateY(0);
+transition:all 0.5s ease-in-out 0s;
+}
+
+.corona:hover img{transform:rotateY(-90deg);
+
+}
+
+.corona .about-corona{width:100%;
+height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:5px 1px;
+	box-sizing:border-box;
+	background:rgba(0,0,0,0.7);
+	transform:rotateY(90deg);
+transition:all 0.5s ease-in-out 0s;
+}
+
+.corona:hover .about-corona{transform:rotateY(0);
+
+}
+
+.about-corona h3{font-size:0.6rem;
+text-align:center;
+font-weight:bold;
+color:white;
+padding:3px 0px;
+background:red;
+border-radius:5px;
+box-shadow:1px 1px 10px 2px blue;
+	
+}
+
+.about-corona p{font-size:0.7rem;
+text-align:center;
+font-weight:bold;
+color:gold;
+	
+}
+
+.about-corona a{font-size:0.6rem;
+text-align:center;
+font-weight:bold;
+text-decoration:none;
+border:solid black 1px;
+border-radius:10px;
+background:white;
+padding:2px 5px;
+position:relative;
+top:10px;
+width:100px;
+color:blue;
+	
+}
+
+.about-corona a:hover{
+	color:red;
+	background:ghostwhite;
+	padding:4px 7px;
+}
+
+
+/*TEACHERS INFO. CSS */
+#content{height:auto;
+  background:lightyellow;}
+  
+  #content h4{font-size:1.7rem;
+  color:red;
+  font-weight:bold;
+  text-align:center;
+  }
+  
+	.faculty{list-style-type:none;
+	   margin:20px auto;
+				width:55%;
+				height:auto;
+				 box-shadow:1px 1px 10px 2px grey;
+				}
+				
+		.faculty2{list-style-type:none;
+				margin:20px auto;
+				width:55%;
+				height:auto;
+				 box-shadow:1px 1px 10px 2px grey;
+				}
+			  	
+				
+		
+				
+.image{width:100px;
+	 margin:0 auto;
+		}
+.image img{width:100px;
+		height:100px;
+	 margin:0 auto;
+	 margin-top:10px;
+		border-radius:5px;
+	border: 1px solid orange;
+		}
+
+.faculty h1{text-align:center;
+font-size:1.4rem;
+color:black;
+font-weight:bold;
+}
+
+.faculty2 h1{text-align:center;
+font-size:1.4rem;
+color:black;
+font-weight:bold;
+}
+			
+		
+	.faculty h2{text-align:center;
+font-size:1.2rem;
+color:grey;
+font-weight:bold;
+}
+			
+				.faculty2 h2{text-align:center;
+font-size:1.2rem;
+color:grey;
+font-weight:bold;
+}
+			
+			
+			.faculty-social ul{margin:0 auto;
+				list-style-type:none;
+			}
+				.faculty-social ul li{padding:0px 2px;
+				display:inline-block;
+				
+				margin-top:15px;
+			}
+			
+				.faculty-social ul li a {
+					backgroung:grey;
+					width:20px;
+					height:20px;
+					font-size:10px;
+					border-radius:20px;
+			}
+			.fa-whatsapp:hover {
+background:green;
+color:white;
+}
+.fa-whatsapp {
+	width:20px;
+	height:20px;
+	border-radius:20px;
+  background:white;
+  color:green;
+  box-shadow:1px 1px 3px 1px black;
+  }
+
+#chairman-message{
+  background:white;
+}
+
+#chairman-message h6{font-size:1.2rem;
+text-align:center;
+font-weight:bold;
+text-transform:uppercase;
+padding:5px 5px;
+color:white;
+width:70%;
+margin:0 auto;
+background:black;
+border-radius:3px;
+box-shadow:1px 1px 10px 2px black;
+}
+#chairman-message p img{width:50px;
+height:50px;
+border:solid black 1px;
+border-radius:50px;
+}
+
+.footer {
+	margin:0;
+	overflow: hidden;
+   height:25%;
+   width: 100%;
+   background-color:black;
+   color: black;
+   text-align: center;
+}
+
+
+/*MEDIA QUERY FOR RESPONSIVE PAGE*/
+
+@media screen and (min-width:800px){
+	#bg-image{ 
+height:330px;
+}}
+
+@media screen and (min-width:800px){
+	.logo{width:100px;
+		height:100px;
+		border-radius:100px;
+		}}
+
+@media screen and (min-width:800px){
+ #schoolname h5{
+font-size:2.8rem;
+}}
+
+@media screen and (min-width:800px){
+#school-address h1{
+		font-size:1.8rem;}}
+
+
+@media screen and (min-width:800px){
+	#an-institution h2{font-size:1.7rem;
+		}}
+
+@media screen and (min-width:800px){
+#cbse-new-delhi h1{
+		font-size:1.6rem;
+		}}
+
+
+
+@media screen and (min-width:600px){
+#nav1 h1{font-size:0.8rem;
+width:100%;
+}}
+@media screen and (min-width:600px){
+.recent-updates{
+height:220px;
+width:100%;
+}}
+
+@media screen and (max-width:520px){
+	#chairman-message{margin-top:40px;}
+}
+@media screen and (min-width:520px){
+	#chairman-message h6{width:95%;
+	margin:0px auto;
+	text-align:center;
+	font-size:0.8rem;
+	font-weight:bold;
+	padding:3px 2px;
+	}
+}
+
+
+
+@media screen and (max-width:520px){
+	#content{margin-top:-70px;}
+}
+
+@media screen and (min-width:600px){
+	#nav1 .corona{
+position:relative;
+top:100px;
+left:-20px;
+margin:0 auto;
+}}
+
+
+	@media screen and (min-width:520px){	#auto-sliding-img{position:relative;
+top:60px;
+margin:0 auto;
+	width:80%;
+	height:300px;
+	
+}}
+
+@media screen and (min-width:520px){
+.body-content{margin-top:370px;
+}
+	}
+
+	
+</style>
+</head>
+</style>
+</head>
+<body>
+	<div class="container-fluid" id="header">
+			<div class="row">
+				<div class="col">Aff.No.2131971</div>
+				<div class="col">School No.71117</div>
+			</div>
+		</div>
+		
+		<!--HEADER PARTS-->
+	
+		<div class="container-fluid" id="bg-image">	
+		
+		<div class="row" id="first-heading">
+						<p>Est.by Pt. Shreedev Dwivedi Memorial Trust,2012</p>
+						</div>
+		
+						<div class="row">
+						<img class="logo" src="http://vspschool.in/logo1.jpg" />
+						</div>
+						<div class="row" id="schoolname">
+						<h5>VIDYA SANSKAR PUBLIC SCHOOL</h5>
+					</div>
+					<div class="row" id="school-address">
+						<h1>KAURIYA KALA, ADALHAT, MIRZAPUR - 232102</h1>
+						</div>
+					
+					<div class="row" id="an-institution">
+						<h2><i>"An institute devoted to bring a better tommorow"</i></h2>
+						</div>
+						
+						<div class="row" id="cbse-new-delhi">
+						<h1>AFFILIATED TO CBSE NEW DELHI 10+2</h1>
+						</div>
+						
+						<!-- SOCIAL MEDIAS-->
+							<div class="row" id="social">
+						<!--YOU TUBE-->
+				<div class="box">
+<div class="box1">	
+			<a href="https://www.youtube.com/channel/UCWMQcSzrka9m9HNYst-XVEQ" class="fa fa-youtube">
+							 </a>
+				</div>
+					<!--FACEBOOK -->
+		<div class="box2">
+			<a href="#FACEBOOK LINK" class="fa fa-facebook">
+							 </a>
+				</div>
+					<!--TWITTER -->
+<div class="box3">
+					<a href="#TWITTER LINK" class="fa fa-twitter"></a>
+							 </div>
+							 
+							 	<!--INSTAGRAM -->
+							 <div class="box4">
+<a href="https://instagram.com/vidya_sanskar_public_school?igshid=reppxi0rn95d" class="fa fa-instagram">
+							 </a>
+							 </div>
+</div>
+</div>
+
+						<div class="row" id="welcome-effect"><marquee direction="left" behavior="alternate">	
+		<h2>VIDYA SANSKAR PUBLIC SCHOOL WELCOMES YOU</h2>
+		</marquee>
+	 </div>
+	 
+	 <!--AUTO SLIDING IMAGES-->
+	 <div class="row" id="auto-sliding-img">
+	  <img class="mySlides" src="https://xouxq3r9n534gqr4iqep1a-on.drv.tw/Image%20/IMG-20200704-WA0026.jpg">
+
+  <img class="mySlides" src="https://xouxq3r9n534gqr4iqep1a-on.drv.tw/Image%20/IMG-20200704-WA0008.jpg">
+
+  <img class="mySlides" src="https://xouxq3r9n534gqr4iqep1a-on.drv.tw/Image%20/IMG-20200704-WA0010.jpg">
+   	
+    <img class="mySlides" src="https://xouxq3r9n534gqr4iqep1a-on.drv.tw/Image%20/IMG-20200704-WA0041.jpg">
+
+  <img class="mySlides" src="https://xouxq3r9n534gqr4iqep1a-on.drv.tw/Image%20/IMG-20200704-WA0034.jpg">
+
+  <img class="mySlides" src="https://xouxq3r9n534gqr4iqep1a-on.drv.tw/Image%20/IMG-20200704-WA0007.jpg">
+ 
+</div>
+	</div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+		<hr>
+									
+									<!--SIDE MENU DESIGN-->
+<div class="menu-box"></div>
+    <input type="checkbox" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner top"></div>
+        <div class="spinner middle"></div>
+        <div class="spinner bottom"></div>
+    </label>
+    <div id="sidebarMenu">
+        <ul class="menu">
+        	<div class="navbar"> 
+        	<!--MENU CONTANTS-->
+            <li>
+<div class="dropdown">
+    <h1 class="dropbtn">Home
+    </h1>
+    <div class="dropdown-content">
+      <a href="HOME_.html">Home</a>
+      <a href="ABOUT-US.html">About Us</a>
+     
+    </div>
+	</div></li>
+            <li>  
+            <div class="dropdown">
+    <h1 class="dropbtn">Admission
+    </h1>
+    <div class="dropdown-content">
+      <a href="admission-form.html">Admission Form</a>
+      <a href="admission-withdral.html">Withdrawl of Admission</a>
+<a href="results.html">Results</a>
+<a href="transfercertificate.html">Transfer Certificate</a>
+    </div>
+  </div>
+  </li>
+  
+  <li><div class="dropdown">
+    <h1 class="dropbtn"><a href="http://vspschool.wixsite.com/extracurricular" style="text-decoration:none;color:white;" onMouseOver="this.style.color='black'" onMouseOut="this.style.color='white'">non-academic</a>
+    </h1>
+  </div>
+</li>
+            <li><div class="dropdown">
+    <h1 class="dropbtn">Academy
+    </h1>
+    <div class="dropdown-content">
+      <a href="school-uniform.html">School Uniform</a>
+      <a href="syllabus.html">Syllabus</a>
+      <a href="examinationpromotion.html">Exam And Promotion</a>
+	<a href="feestructure.html">Fee Structure</a>
+    </div>
+  </div>
+</li>
+            <li> <div class="dropdown">
+    <h1 class="dropbtn">Achievements
+    </h1>
+    <div class="dropdown-content">
+      <a href="president.html">Awarded by President</a>
+      <a href="score.html">Score 10 CGPA </a>
+      <a href="ncsc.html">Awarded in NCSC</a>
+    </div>
+  </div>
+ </li>
+            
+          <li><div class="dropdown">
+    <h1 class="dropbtn">Gallary
+    </h1>
+    <div class="dropdown-content">
+      <a href="annualfunction.html">Annual Function</a>
+      <a href="quizcompition.html">Science Quiz Compition</a>
+      <a href="republicday.html">Republic Day</a>
+	<a href="indepenceday.html">Independence Day</a>
+    </div>
+  </div>
+					</li>
+					
+            <li><div class="dropdown">
+    <h1 class="dropbtn">Faculty
+    </h1>
+    <div class="dropdown-content">
+      <a href="hindi.html">Hindi Department</a>
+      <a href="english.html">English Department</a>
+      <a href="maths.html">Maths Department</a>
+	<a href="computer.html">Computer Department</a>
+<a href="commerce.html">Commerce Department</a>
+<a href="social.html">Social Science Department</a>
+<a href="physics.html">Physics Department</a>
+<a href="chemistry.html">Chemistry Department</a>
+<a href="biology.html">Biology Department</a>
+    </div>
+  </div>
+</li>
+               <li><div class="dropdown">
+    <h1 class="dropbtn">Infrastructure
+    </h1>
+    <div class="dropdown-content">
+      <a href="building.html">Buildings</a>
+      <a href="classroom.html">Class Rooms</a>
+      <a href="playground.html">Play Ground</a>
+	<a href="labs.html">Labs</a> 
+	<a href="smartclass.html">Smart Classes</a>
+    </div>
+  </div></li>
+  <li>
+  	<div class="dropdown">
+    <h1 class="dropbtn">Activities
+    </h1>
+    <div class="dropdown-content">
+      <a href="school.html">School Activities</a>
+      <a href="house.html">House Activities</a>
+      <a href="sports.html">Sports Activities</a>
+    </div>
+  </div>
+
+  </li>
+  
+     <li>
+			<div class="dropdown">
+    <h1 class="dropbtn">News Media
+    </h1>
+    <div class="dropdown-content">
+      <a href="news.html">News</a>
+      <a href="Events.html">Events</a>
+      <a href="celebration.html">Celebration</a>
+    </div>
+  </div>
+				</li>
+				<li>
+			<div class="dropdown">
+    <h1 class="dropbtn">Contact Us
+    </h1>
+    <div class="dropdown-content">
+      <a href="details.html">Details</a>
+      <a href="history.html">History</a>
+      <a href="manegment.html">VSPS Manegment</a>
+    </div>
+  </div>
+				</li>
+			 <li>
+			<div class="dropdown">
+    <h1 class="dropbtn">SchoolMitra
+    </h1>
+    <div class="dropdown-content">
+      <a href="studentlogin.html">Student Login</a>
+      <a href="teacherslogin.html">Teachers Login</a>
+      <a href="parentslogin.html">Parents Login</a>
+    </div>
+  </div>
+</div>
+				</li>
+					</div>
+        </ul>
+    </div>
+		
+			<div class="body-content">
+<div class="container-fluid" id="mid-contents">
+	
+	<!--NOTICE BAR FOR NEW UPDATE-->
+	<div class="row">
+		<div class="col-sm-3" id="nav1">
+<h1>RECENT UPDATES</h1>
+<marquee class="recent-updates" scrolldelay="250s" direction="up"  behavior="alternate" onmouseover="this.stop();" onmouseout="this.start();">
+									<center>
+										<br>
+											<hr>
+<a href="admission.pdf"> Admssion Open</a>
+									<hr>
+<a href="admissionform.pdf"> Admssion Form</a>
+	<hr>
+<a href="prospectus.pdf"> Prospectus</a>
+								<hr>
+<a href="http://padhaipay.com/#/admission/newEnquiry/5e6f389ee6f8a24e4bc4f746">For New Admission Apply Here</a>
+<hr>
+	<br>
+									</center>
+</marquee>
+<div class="corona">
+	<div class="corona-img">
+	<img src="https://media1.giphy.com/media/J1RWP1OyfkwATrL9cd/giphy.gif" alt="corona virus img">
+		</div>
+		
+		<!--ABOUT COVID-19-->
+		<div class="about-corona">
+			<center>
+			<h3>COVID-19</h3>
+			<p>Whole VSPS Family Requests You All to "STAY HOME & STAY SAFE"
+			<br>
+				<a href="https://news.google.com/covid19/map?hl=en-IN&mid=%2Fm%2F016zwt&gl=IN&ceid=IN%3Aen">COVID-19 UPDATES</a>
+			</center>
+			</div>
+	</div>
+ </div>
+ <hr>
+ <div class="col-sm-6" id="content">
+<h4>COMMERCE DEPARTMENT</h4>
+		<ul class="faculty">
+			<li>
+				<div class="image">
+				<img src="logo.png">
+					</div>
+				<br>
+						<h1>Mr.Aditya Pandey</h1>
+		
+			<h2>M.Com
+					<br>
+		<div class="faculty-social">
+			<ul>
+				<li>	
+				<a href="#######" class="fa fa-facebook">
+							 </a>
+							 </li>
+							 	<li>	
+				<a href="#######" class="fa fa-instagram">
+							 </a>
+							 </li>
+							 	<li>	
+				<a href="#######" class="fa fa-twitter">
+							 </a>
+							 </li>
+							 	<li>	
+				<a href="#######" class="fa fa-whatsapp">
+							 </a>
+							 </li>
+							 <br>
+							 	<br>
+				</ul>
+				</div>
+			</li>
+			</ul>
+
+<ul class="faculty2">
+				<div class="image">
+				<img src="logo.png">
+					</div>
+				<br>
+						<h1>Mr.Jyoti Bhushan Chaturvedi</h1>
+		
+			<h2>B.Com
+					<br>
+		<div class="faculty-social">
+			<ul>
+				<li>	
+				<a href="#######" class="fa fa-facebook">
+							 </a>
+							 </li>
+							 	<li>	
+				<a href="#######" class="fa fa-instagram">
+							 </a>
+							 </li>
+							 	<li>	
+				<a href="#######" class="fa fa-twitter">
+							 </a>
+							 </li>
+							 	<li>	
+				<a href="#######" class="fa fa-whatsapp">
+							 </a>
+							 </li>
+							 <br>
+							 	<br>
+				</ul>
+				</div>
+			</li>
+			</ul>
+</div>
+ <hr>
+<div class="col-sm-3" id="chairman-message">
+ <h6>Chairman's Message</h6>
+ <br>
+<p>
+							<img src="http://vspschool.in/director.jpg" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First of all I wish to share my immense pleasure with you all for the little plant 
+that was shown few years back has started growing up,spreading its green leaves and young shoots.It has also 
+started blooming and blossomming. In due course time it will show its youthfull vigour and characteristic. 
+I am sure soom it will be a haven for thousands of birds. I bestow all the credit to you all. Had you not been concerned, 
+it would have been withered at the root  and there remained a sad dirge a dying dirge. Hats off!.</p>
+<p>Now what needs is to prune and trim, give it a space to grow with a continuous watch of a wise,diligent and expert gardener. Once again I bestow this word on you.
+You all are my guide,menter and philosopher. Without your commendable comments my dream will never come true.</p>
+</div>
+
+</div>
+</div> 
+<br>
+<hr>
+<div class="footer" align="center">
+<font color="white">
+<p align="center"><b>All rights reserved © 2012 India</b></b></p>
+</font>
+</div>
+</div>
+</body>
+</html>	
+	
